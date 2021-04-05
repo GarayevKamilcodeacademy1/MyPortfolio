@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 html,
 body {
+   
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -140,6 +141,7 @@ body {
 }
 
 .wrap-all-the-things {
+  /* background-image: linear-gradient(to bottom, rgb(9, 9, 87) , rgb(133, 133, 172),white);   */
   text-align: center;
   position: relative;
   min-height: 100%;
@@ -148,32 +150,10 @@ body {
   margin-top: 0;
   transition: transform 400ms, opacity 400ms;
 }
-@media screen and (max: 480px) {
-  .wrap-all-the-things {
-    padding-left: 70px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .wrap-all-the-things .heading a span{
-      font-size: 2.7rem;
-  }
+.wrap-all-the-things .red{
+    height: 100vh;
 }
 
 
-.wrap-all-the-things .heading{
-  margin-top: -8px;
-}
-.wrap-all-the-things .heading a
-{
-  transform: translate(-50%,-50%);
-  text-decoration: none;
-  z-index: 5;
-  position: absolute;
-  top: 50%;
-  color: white!important;
-  font-size: 4.5rem;
-  font-weight: bold;
-}
 
 
