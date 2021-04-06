@@ -158,15 +158,29 @@
   
 
 .col-12{
-  height: 100vh;
+  // height: 100vh;
   
 }
  
- @media screen and (max-width:1200px) {
+ @media screen and (max-width:1000px) {
    .article{
     margin-left: 100px;
    }
  }
+
+ @media screen and (max-width:1000px) {
+  .article{
+    h1{
+      font-size: 2.4rem!important;
+    }
+    p{
+      font-size: 0.7rem!important;
+    }
+    top: 40%!important;
+    width: 200px!important;
+   margin-left: 100px;
+  }
+}
   .article {
     position: absolute;
     transform: translate(-50%,-50%);

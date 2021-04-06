@@ -24,28 +24,29 @@
         <nav class="head-nav">
           <ul class="menu">
             <li>
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                  <span>Home</span></a>
+              </li>
+            <li>
               <a href="aboutme.html">
-                <svg class="person">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#person"></use>
-                </svg><span>About</span></a>
+                <i class="fas fa-user-alt"></i>
+                <span>About</span></a>
             </li>
             <li>
-              <a href="#">
-                <svg class="video-player">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-player"></use>
-                </svg><span>Work</span></a>
+              <a href="works.html">
+                <i class="fas fa-briefcase"></i>
+                <span>Work</span></a>
             </li>
             <li>
-              <a href="#">
-                <svg class="speech-bubble">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#speech-bubble"></use>
-                </svg><span>Blog</span></a>
+              <a href="blog.html">
+                <i class="fab fa-microblog"></i>
+                <span>Blog</span></a>
             </li>
             <li>
-              <a href="#">
-                <svg class="paper-airplane">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paper-airplane"></use>
-                </svg><span>Contact</span></a>
+              <a href="contact.html">
+                <i class="fas fa-phone-alt"></i>
+                <span>Contact</span></a>
             </li>
           </ul>
         </nav>
@@ -414,7 +415,9 @@
 var tagCloud = TagCloud('.content', myTags,{
 
     // radius in px
+    
     radius: 300,
+    
 
     // animation speed
     // slow, normal, fast
